@@ -28,6 +28,8 @@ The Dataquest website provides some guidance and provides the tasks in order to 
 is organised to tasks from the website. '1.Task1.py' to '4.Task4.py' is on Cleaning and Preparing the data while '5.Task5.py' to '6.Task6.py' is on Data Modelling and
 Analysis. '7.Task7.py' and '7.Task7.5.py' is to analyse another aspect of data from the dataset.
 
+I have transferred the tasks from the website as instructions into my respective code files.
+
 Learnt more regarding how to clean data from the cleaning data guide (in source(s))
 
 Source(s): https://app.dataquest.io/c/25/m/201/guided-project%3A-star-wars-survey/1/how-guided-projects-work (Dataquest (main project guide)), 
@@ -41,7 +43,26 @@ Dataset analysed [here](https://github.com/fivethirtyeight/data/blob/master/star
 
 **2.Cleaning and Preparing Data**
 
+_Task 1_
+```python
+import pandas as pd
 
+#From the website instructions: We need to specify an encoding, because the dataset has some characters 
+#that aren't in Python's default utf-8 encoding. You can read more about character encodings on developer 
+#Joel Spolsky's blog. (this is still quite new to me. Ill leave this comment here to explain the 'encoding' function)
+starwars = pd.read_csv('StarWars.csv', encoding="ISO-8859-1")
+print(starwars.head(10))
+
+print(starwars.columns)
+```
+Not much for Task 1, just to load the dataset into the file and printing out top 10 rows, and the column titles.
+
+<br>
+
+_Task 2_
+```python
+
+```
 
 <br>
 
