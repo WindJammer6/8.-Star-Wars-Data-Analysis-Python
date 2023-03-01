@@ -23,6 +23,7 @@ Let's start with:
 <br>
 
 **1. Sources and Context**
+
 The Dataquest website provides some guidance and provides the tasks in order to analyse some of the data in the dataset. The 'Starwars_data_analysis_project' folder
 is organised to tasks from the website. '1.Task1.py' to '4.Task4.py' is on Cleaning and Preparing the data while '5.Task5.py' to '6.Task6.py' is on Data Modelling and
 Analysis. '7.Task7.py' and '7.Task7.5.py' is to analyse another aspect of data from the dataset.
@@ -38,7 +39,7 @@ Dataset analysed [here](https://github.com/fivethirtyeight/data/blob/master/star
 
 <br>
 
-## Cleaning and Preparing Data
+**2.Cleaning and Preparing Data**
 
 
 
