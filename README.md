@@ -230,7 +230,7 @@ From the graph, we can see that 'Star Wars: Episode V The Empire Strikes Back' i
 
 <br>
 
-**4. 4. Analysing Other Aspects of the Dataset**
+**4. Analysing Other Aspects of the Dataset**
 
 Task 6 marked the end of the guided part of the data analysis of the Star Wars survey, and that Dataquest recommends that we try to analyse other aspects and find any interesting results from our analysis such as Does, Gender/If the person is a Star Wars fan/If the person is a Star Trek fan, affect the ranking and viewing of each Star Wars movie?
 
