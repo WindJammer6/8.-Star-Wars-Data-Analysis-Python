@@ -339,7 +339,7 @@ To be improved:
 * Some of my codes are quite repetitive, loops/other commands can definitely shorten them.
 * Can try to use correlation while analysing the data to find some interesting results.
 * Can try working/analysing the data of other columns of the dataset such as 'Education', 'Location (Census Region)', and 'Which character shot first?' to find any interesting patterns to even more completely analyse this Star Wars survey dataset.
-* Can try working/analysing the data from columns 15 to 29 (after cleaning the data) as well, which contain data on the characters respondents view favorably and unfavorably to find answers for questions such as 'Which character do respondents like the most?', 'Which character do respondents dislike the most?', .Which character is the most controversial (split between likes and dislikes)?'
+* Can try working/analysing the data from columns 15 to 29 (after cleaning the data) as well, which contain data on the characters respondents view favorably and unfavorably to find answers for questions such as 'Which character do respondents like the most?', 'Which character do respondents dislike the most?' and 'Which character is the most controversial (split between likes and dislikes)?'
 
 <br>
 
