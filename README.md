@@ -155,7 +155,7 @@ starwars[starwars.columns[8:14]] = starwars[starwars.columns[8:14]].astype(float
 
 starwars = starwars.rename(columns={'Please rank the Star Wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film.':'rank1', 'Unnamed: 10':'rank2', 'Unnamed: 11':'rank3', 'Unnamed: 12':'rank4', 'Unnamed: 13':'rank5','Unnamed: 14':'rank6'})
 ```
-For Task 4, the task was to change the data type of the values in column 8 to 13 to floats (as they might be strings) so we can use them as floats for data modelling later when we draw graphs using the Matplotlib library (using '.astype()' function), and to rename said columns' title to something more understandable (done using the '.rename()' function)
+For Task 4, the task is to change the data type of the values in column 8 to 13 to floats (as they might be strings) so we can use them as floats for data modelling later when we draw graphs using the Matplotlib library (using '.astype()' function), and to rename said columns' title to something more understandable (done using the '.rename()' function)
 
 Also, I noticed my dataset has excess old indexing from the transferring of my dataset from 1 code file to another so I used the '.drop()' function and the '.set_index()' with 'RespondentID' as index so I can remove these excess indexing. (which will affect the indexing of the columns, so something to be mindful of)
 
