@@ -10,6 +10,10 @@ such as Cleaning and Preparing data, Modelling and Analysing data, and sharing a
 
 <br>
 
+For this Star Wars Data Analysis Project, we will answer in the guided aspect: **'Which is ranked the best Star Wars movie?'** and **'Which is the most viewed Star Wars movie?'**. For the non-guided aspect, we will answer **'Do fans of Star Trek have a different ranking of the Star Wars movies compared to those that are not fans of Star Trek.'**
+
+<br>
+
 Computer program used for coding: VS Code
 
 ## Repository directory description:
