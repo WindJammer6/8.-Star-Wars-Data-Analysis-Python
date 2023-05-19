@@ -16,18 +16,29 @@ For this Star Wars Data Analysis Project, we will answer in the guided aspect: *
 
 Computer program used for coding: VS Code
 
-## Repository directory description:
-Let's start with:
-1. Sources and Context
-2. Cleaning and Preparing Data
-3. Data Modelling and Analysis
-4. Analysing Other Aspects of the Dataset
+## Table of Contents
++ [Code Description](#codedescription)
+    1. [Sources and Context](#sourcesandcontext)
+    2. [Cleaning and Preparing Data](#cleaningandpreparingdata)
+        1. [Task 1](#task1)
+        2. [Task 2](#task2)
+        3. [Task 3](#task3)
+        4. [Task 4](#task4)
+    3. [Data Modelling and Analysis](#datamodellingandanalysis)
+        1. [Task 5](#task5)
+        2. [Task 6](#task6)
+    5. [Analysing Other Aspects of the Dataset](#analysingother)
+        1. [Task 7](#task7)
+        2. [Task 7.5](#task7.5)
++ [Thoughts after the project](#thoughts)
 
 <br>
 
 <br>
 
-**1. Sources and Context**
+## Code Description <a name = "codedescription"></a>
+
+### 1. Sources and Context <a name = "sourcesandcontext"></a>
 
 The Dataquest website provides some guidance and provides the tasks in order to analyse some of the data in the dataset. The 'Starwars_data_analysis_project' folder
 is organised to tasks from the website. '1.Task1.py' to '4.Task4.py' is on Cleaning and Preparing the data while '5.Task5.py' to '6.Task6.py' is on Data Modelling and
@@ -46,9 +57,9 @@ Dataset analysed [here](https://github.com/fivethirtyeight/data/blob/master/star
 
 <br>
 
-**2.Cleaning and Preparing Data**
+### 2.Cleaning and Preparing Data** <a name = "cleaningandpreparingdata"></a>
 
-_Task 1_
+#### _Task 1_ <a name = "task1"></a>
 ```python
 import pandas as pd
 
@@ -64,7 +75,7 @@ Not much for Task 1, just to load the dataset into the file and printing out top
 
 <br>
 
-_Task 2_
+#### _Task 2_ <a name = "task2"></a>
 ```python
 import pandas as pd
 
@@ -105,7 +116,7 @@ Loaded edited dataset into a new file so I can load it into another code file. A
 
 <br>
 
-_Task 3_
+#### _Task 3_ <a name = "task3"></a>
 ```python
 #Using '.replace()' function may work as well
 #Along with using 'rename()' function to rename column names in a dataframe
@@ -136,7 +147,7 @@ In my code, I made a copy of the portion of the code (columns 9 to 14) and used 
 
 <br>
 
-_Task 4_
+#### _Task 4_ <a name = "task4"></a>
 ```python
 import pandas as pd
 
@@ -163,7 +174,7 @@ Also, I noticed my dataset has excess old indexing from the transferring of my d
 
 <br>
 
-**3. Data Modelling and Analysis**
+### 3. Data Modelling and Analysis <a name = "datamodellingandanalysis"></a>
 
 Up till now, the cleaning and preparing of the data will enable us to do some data analysis via looking at the patterns of the graphs and answer some questions about the Star Wars survey. In my code, I will see which Star Wars movie was ranked the best? (In Task 5)
 
@@ -171,7 +182,7 @@ I also created a bar graph showing which Star Wars movie has the most views out 
 
 I have read in the discussions page in the Dataquest website that using correlation between these 2 graphs, that we may be able to have better insights into data analysis using the '.corr()' function. The code is done by someone else in the discussions page in the Dataquest website which I thought was quite interesting and a way to analyse data that I would want to try in future personal projects.
 
-_Task 5_
+#### _Task 5_ <a name = "task5"></a>
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -203,7 +214,7 @@ Learnt how to code for plotting a bar graph in Matplotlib as demonstrated in my 
 
 <br>
 
-_Task 6_
+#### _Task 6_ <a name = "task6"></a>
 ```python
 labels = ['Ep 1', 'Ep 2', 'Ep 3', 'Ep 4', 'Ep 5', 'Ep 6']
 #Using '.sum()' function works because the function treats boolean as values. (1 for True and 0 for False)
@@ -234,13 +245,13 @@ From the graph, we can see that 'Star Wars: Episode V The Empire Strikes Back' i
 
 <br>
 
-**4. Analysing Other Aspects of the Dataset**
+### 4. Analysing Other Aspects of the Dataset <a name = "analysingother"></a>
 
 Task 6 marked the end of the guided part of the data analysis of the Star Wars survey, and that Dataquest recommends that we try to analyse other aspects and find any interesting results from our analysis such as Does, Gender/If the person is a Star Wars fan/If the person is a Star Trek fan, affect the ranking and viewing of each Star Wars movie?
 
 In Task 7 and 7.5, I decided to see whether fans of Star Trek (Task 7) may have a different ranking of the Star Wars movies compared to those that are not fans of Star Trek (Task 7.5).
 
-_Task 7_
+#### _Task 7_ <a name = "task7"></a>
 ```python
 a = starwars['Do you consider yourself to be a fan of the Star Trek franchise?']
 
@@ -283,7 +294,7 @@ This graph shows the ranking by fans of Star Trek of the Star Wars movies.
 
 <br>
 
-_Task 7.5_
+#### _Task 7.5_ <a name = "task7.5"></a>
 ```python
 a = starwars['Do you consider yourself to be a fan of the Star Trek franchise?']
 
@@ -330,7 +341,7 @@ General ranking of the Star Wars movies by fans and those who are not fans of St
 
 <br>
 
-## Thoughts after the project
+## Thoughts after the project <a name = "thoughts"></a>
 This is my first time analysing data using a programming language. I ran into many bugs working with the Star Wars survey dataset such as manipulating of the columns and rows, data type of the values, and how to extract data that I need for analysis. By solving these bugs, I feel that I have learnt a lot and would be able to cleaning, extracting and analysing data much more smoothly with other datasets.
 
 I initially started by previous repository (7.-NumPy-Pandas-Matplotlib-Learning-and-Practice-Python) and learning of NumPy, Pandas and Matplotlib with making a data analysis project as 1 of the goals, glad that I was able to somewhat complete (even though there can still be much improvements) it.
