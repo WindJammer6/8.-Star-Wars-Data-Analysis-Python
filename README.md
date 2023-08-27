@@ -57,7 +57,7 @@ Dataset analysed [here](https://github.com/fivethirtyeight/data/blob/master/star
 
 <br>
 
-### 2.Cleaning and Preparing Data** <a name = "cleaningandpreparingdata"></a>
+### 2.Cleaning and Preparing Data <a name = "cleaningandpreparingdata"></a>
 
 #### _Task 1_ <a name = "task1"></a>
 ```python
